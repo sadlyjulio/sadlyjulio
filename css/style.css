@@ -8,29 +8,30 @@ body{
 .image1{
     margin-top: 380px;
     margin-left: 610px;
-    position: absolute;
+    position: fixed;
 }
 
 .image2{
     margin-top: 15px;
     margin-left: 10px;
-    position: absolute;
+    position: fixed;
 }
 
 .image3{
     margin-top: 20px;
     margin-left: 277px;
-    position: absolute;
+    position: fixed;
 }
 
 .image4{
     margin-top: 17px;
     margin-left: 1022px;
-    position: absolute;
+    position: fixed;
 }
 
 .image5{
     margin-top: 17px;
     margin-left: 1329px;
-    position: absolute;
+    position: fixed;
+      
 }
