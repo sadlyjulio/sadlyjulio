@@ -8,7 +8,12 @@ body{
 
 body {
     background-color: #444442;
-    padding-top: 0px;
+    padding-top: -5px;
+}
+
+h6{
+    padding-left: 710px;
+    position: sticky;
 }
 
 h1 {
@@ -56,7 +61,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     color: #999;
     padding: 1.3rem 30px 1rem 30px;
     position: absolute;
-    top: 1px;
+    top: 0.5px;
     left: 0;
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;

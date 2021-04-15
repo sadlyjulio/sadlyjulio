@@ -1,0 +1,43 @@
+.image1{
+
+    margin-left: 680px;
+    margin-top: 0px;
+    position: absolute;
+
+}
+
+.image2{
+
+    margin-left: 50px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.image3{
+
+    margin-left: 1200px;
+    margin-top: 250px;
+    position: absolute;
+    
+
+}
+
+.image4{
+
+    margin-left: 650px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.image5{
+
+    margin-left: 405px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+body{
+    background-image: url(../images/background\ color.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
