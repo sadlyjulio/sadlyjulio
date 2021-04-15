@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sadlyjulio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script> 
 
     <!--https://www.favicon.cc/-->
     <link rel='icon' href= 'images/favicon.ico'>
@@ -13,20 +14,35 @@
 </head>
 <body>
     
-    <img src='images/notMe.png' class=image1 width= '283px' position: fixed; top:100px left:100px>
+    </a> <img src='images/notMe.png' class=image1 width= '283px'id=randlink  position: fixed; top:100px left:100px>
 
     <audio src= "music/Silent Hill 2 - Mary's Letter [Song Only].mp3" autoplay="loop"></audio>
 
 
 <header>
 
-    <div id="foo"></div>  <img src='images/About.png' class=image2 width= '220px'>
+    <div id="foo"></div>  
+    <script>
+        var sites = [
+            'cat box.html',
+            'doomsdayclock.html'
+            
+        ];
+    
+        function randomSite() {
+            var i = parseInt(Math.random() * sites.length);
+            location.href = sites[i];
+        }
+    </script>
+    <a href="#" onclick="randomSite();"><img src="images/notMe.png" width="283px" class=image1></a>
 
-    <img src='images/Index.png' class=image3 width= '233px'>
+    <a href="about.html"><img src='images/About.png' class=image2 width= '220px'>
+
+    <a href="indexpage.html"><img src='images/Index.png' class=image3 width= '233px'></a>
 
     <img src='images/Gallery.png' class=image4 width='230px'>
 
-    <a href="contact.html"><img src='images/Contact.png' class=image5 class="glow" width='230px'></a> 
+    <a href="contact.html"><img src='images/Contact.png' class=image5 width='230px'></a> 
     
 
     <nav></nav>
