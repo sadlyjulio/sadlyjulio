@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" href="css/laika.css">
+    </head>
+    
+    <img src='images/laikatitle.png' class=image5 width= '250px'>
+
+    <a href="index.html"><img src='images/homepage button.png' class=image6 width= '150px'>
+
+        <script>
+            var sites = [
+                'cat box.html',
+                'doomsdayclock.html',
+                'laika.html'
+                
+            ];
+        
+            function randomSite() {
+                var i = parseInt(Math.random() * sites.length);
+                location.href = sites[i];
+            }
+        </script>
+
+<a href="#" onclick="randomSite();"><img src="images/laikaup.png" class=image4 width="550px">
