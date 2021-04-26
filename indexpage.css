@@ -1,0 +1,31 @@
+.image1{
+
+    margin-left: 400;
+    margin-top: 300;
+    position: absolute;
+}
+
+.image2{
+
+    margin-left: 675;
+    margin-top: 300;
+    position: absolute;
+
+}
+
+.image3{
+
+    margin-left: 950;
+    margin-top: 305;
+    position: absolute;
+
+}
+
+.image4{
+
+    margin-left: 700;
+    margin-top: 0;
+    position: absolute;
+}
+
+body {background-color: navy;}
